@@ -1,0 +1,69 @@
+@media only screen and (max-width: 490px) {
+
+    .Addcontent_course input {
+        font-size: 10px;
+    }
+
+    .duraction_input {
+        width: 30% !important;
+    }
+
+    .Addcourse_inner_info {
+        width: 100% !important;
+    }
+
+    .Addcourse-change-course button {
+        padding: 10px 15px;
+        font-size: 10px !important;
+    }
+}
+
+.input_sec input {
+    width: 30% !important;
+    padding: 10px;
+    border: 1px solid rgba(51, 48, 48, 0.1);
+    outline: 1px solid rgb(45, 43, 43);
+    margin: 10px 0;
+}
+
+.Addcontent_course {
+    display: flex;
+    /* flex-direction: column; */
+    padding-top: 20px;
+    min-width: 100%;
+
+}
+
+.input_first input{
+    width: 97% !important;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(51, 48, 48, 0.1);
+    outline: 1px solid rgb(45, 43, 43);
+    margin: 10px 0;
+}
+
+
+.Addcontent_course select {
+    width: 97% !important;
+    padding: 10px;
+    border: 1px solid rgba(51, 48, 48, 0.1);
+    outline: 1px solid rgb(45, 43, 43);
+    margin: 10px 0 !important;
+}
+.Addcontent_course option {
+    font-size: 16px;
+    min-height: 100px !important;
+  }
+  .Addcontent_course option:checked {
+    color: rgb(250, 0, 0);
+    background-color: rgb(188, 193, 187);
+}
+.color_select
+{
+    color: gray !important;
+}
+.option_padd
+{
+    padding: 20px 0 !important;
+}

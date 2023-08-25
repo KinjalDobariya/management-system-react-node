@@ -1,0 +1,169 @@
+@media only screen and (max-width: 742px) {
+
+    .divTableHead .divTableCell {
+        padding: 20px 10px !important;
+        font-size: 12px !important;
+
+    }
+
+    .bodyTableCell {
+        font-size: 12px !important;
+    }
+}
+
+td a {
+    color: #026ca1 !important;
+}
+
+td a:hover,
+a:active {
+    color: rgb(0, 8, 255) !important;
+}
+
+.veiwcourse_sec {
+    margin-top: 60px !important;
+    margin-bottom: 70px !important;
+    background-color: #fff;
+    box-shadow: rgba(160, 158, 158, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+
+}
+.search_div 
+{
+    display: flex;
+    align-items: center;
+}
+.search_div input
+{
+    height: 100%;
+    width: 40%;
+}
+.search_div .btn
+{
+    padding: 3.5px 10px;
+}
+.viewcourse_main_title
+{
+    text-align: center !important;
+    color: #03a1f1;
+    border-bottom: 1px dotted #03a1f1;
+    padding-bottom: 20px;
+    margin-bottom: 40px !important;
+}
+.table-area {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    /* max-width: 500px; */
+    overflow: auto;
+}
+
+.table-area::-webkit-scrollbar {
+    height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #03a1f1;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.table-margin {
+    margin-top: 100px;
+
+}
+
+.table_border {
+    border: 2px solid #03a1f1;
+}
+
+.divTableHead .divTableCell {
+    display: table-cell;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+}
+
+.bodyTableCell {
+    padding: 14px 0;
+}
+
+tr:nth-child(even) {
+    background-color: #b7e7ff;
+    z-index: -1;
+}
+
+.table-header-shadow {
+    padding: 20px;
+    margin: 0 0 30px 0;
+    background: #03a1f1 !important;
+    border: 1px solid #BDDBFF;
+    /* border-radius: 10px; */
+}
+
+.divTableBody .salon-pay-sidebar-scroll {
+    overflow-y: auto;
+    margin-right: -5px;
+    height: 548px;
+    padding-bottom: 24px;
+}
+
+.veiw_icon {
+    font-size: 20px;
+}
+
+.page-item {
+    text-align: center !important;
+}
+
+
+
+/*=================Paging Navigation===================*/
+.paging-navigation {
+    text-align: center;
+    padding: 0 !important;
+    margin: 20px 0px;
+}
+
+.paging-navigation .nav-links {
+    display: inline-flex;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid rgba(51, 153, 204, 0.2);
+    box-shadow: 0px 4px 25px 5px rgb(184 185 206 / 25%);
+}
+
+.paging-navigation .nav-links .page-numbers {
+    padding: 10px;
+    border: none;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #3399CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: unset;
+}
+
+.paging-navigation .nav-links .page-numbers.prev {
+    border-right: 1px solid rgba(51, 153, 204, 0.2);
+}
+
+.paging-navigation .nav-links .page-numbers.next {
+    border-left: 1px solid rgba(51, 153, 204, 0.2);
+}

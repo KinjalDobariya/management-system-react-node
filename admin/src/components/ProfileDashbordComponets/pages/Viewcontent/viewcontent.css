@@ -1,0 +1,23 @@
+.input-group{
+    width: 20% !important; 
+    text-align: right !important;
+    margin-left: auto;
+}
+.search_div
+{
+    width: 87.5%;
+    display: flex;
+    justify-content: end;
+}
+.Search_input
+{
+    padding: 6.5px;
+    border: 1px solid #0094de;
+    outline: 1px solid #0094de;
+}
+.btn
+{
+    background-color: #0094de !important;
+    color: #fff !important;
+    border-radius: 2px !important;
+}

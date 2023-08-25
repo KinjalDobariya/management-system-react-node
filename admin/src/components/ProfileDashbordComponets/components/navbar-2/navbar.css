@@ -1,0 +1,78 @@
+@media only screen and (max-width:768px) {
+
+    .p_search {
+        display: none !important;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+.menu li {
+    padding: 0 15px;
+}
+
+.menu li a {
+    display: flex;
+    align-items: center;
+    color: #0094de;
+}
+
+.menu_icon {
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.p_navbar {
+    padding: 15px 0;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    background: rgba(0, 148, 222, 0.1);
+}
+
+.p_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.p_search_input {
+
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.p_dropdown {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.p_profile {
+    padding-right: 60px !important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.p_notification {
+    color: #0094de !important;
+    font-size: 25px !important;
+}

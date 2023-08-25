@@ -1,0 +1,158 @@
+@media only screen and (max-width: 770px) {
+    .btn {
+        margin: 20px 10px !important;
+    }
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.profile_section {
+    margin-top: 20px;
+}
+
+.admission_section {
+    margin-bottom: 60px;
+    min-height: 600px;
+    background: #fff;
+    height: 100;
+    border-radius: 2px;
+    z-index: 999;
+    /* width: 90%; */
+    margin: auto;
+    box-shadow: rgba(57, 57, 61, 0.2) 0px 7px 29px 0px;
+
+}
+
+.tab_buttons {
+    margin: 40px 10px 30px 10px;
+
+}
+
+.btn {
+    margin: 10px 10px !important;
+}
+
+.admission_details {
+    padding: 30px;
+}
+
+.admission_details h3 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #0094de;
+    color: #0094de;
+}
+
+.admission_details h4 {
+    padding: 30px 0 20px 0;
+    border-bottom: 1px solid #0094de;
+    color: #0094de;
+}
+
+.personal_details input,
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(167, 165, 165, 0.1);
+    outline: 1px solid rgb(158, 153, 153);
+    margin: 8px 0 !important;
+    /* color: #cb2020; */
+}
+.personal_details .lable
+{
+    font-weight: 550;
+    color: #04699c;
+}
+.personal_details select {
+    width: 100% !important;
+    padding: 8.70 !important;
+}
+
+.admission_btn .btn-secondary {
+    color: #fff !important;
+    background-color: #0094de !important;
+    border: none !important;
+    padding: 10px 30px;
+}
+
+.personal_address input {
+
+    width: 99% !important;
+    height: 90px;
+
+}
+
+.input-group {
+    display: flex;
+    width: 100% !important;
+    margin-left: 0 !important;
+    border-radius: 5px;
+}
+
+.input-group .btn {
+    background-color: #0094de !important;
+    padding: 9px 25px !important;
+    margin: 8px  9px !important;
+    color: #fff !important;
+    border: none !important;
+}
+.admission_button .btn {
+    background-color: #0094de !important;
+    padding: 7px 25px !important;
+    margin: 7.5px 0 !important;
+    color: #fff !important;
+    border: none !important;
+    font-size: 18px;
+}
+
+.form-control {
+    border-radius: 5px !important;
+  
+}
+
+.show.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.admission_sec {
+    margin: 40px 0 !important;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: transparent !important;
+    border-bottom: 3px solid #0094de !important;
+    color: #0094de !important;
+
+}
+
+.nav-link {
+    color: #0094de !important;
+    border: none !important;
+}
+
+.nav-link:hover {
+    border: none !important;
+}
+
+.nav-tabs {
+    border: none !important;
+    border-color: transparent !important;
+
+}
+
+.nav-tabs:hover {
+    border-color: transparent !important;
+    border: none !important;
+}
+
+.validation-span
+{
+    color: rgb(198, 25, 25);
+    font-weight: 500;
+}
